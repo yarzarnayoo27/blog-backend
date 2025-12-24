@@ -1,0 +1,18 @@
+PATCH http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "title": "Test Title",
+    "postType": "post",
+    "slug": "test-title",
+    "status": "draft",
+    "content": "test content",
+    "schema": "{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"}}}",
+    // "featuredImageUrl": "",
+    "publishOn": "2025-01-15T10:30:00Z",
+    "tags": ["yarzar", "shweshwe"],
+    "metaOptions": [{
+        "key": "testKey",
+        "value": 27
+    }]
+}
